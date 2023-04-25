@@ -48,11 +48,44 @@
 
 # ////////////////////////////////////////////////////////////////////
 
-nombreart = str(input ("Nombre del Articulo: "))
-clave = int(input ("Clave: "))
-precio = float(input ("Precio: "))
-cantidad = int(input ("Cantidad: "))
+# nombreart = str(input ("Nombre del Articulo: "))
+# clave = int(input ("Clave: "))
+# precio = float(input ("Precio: "))
+# cantidad = int(input ("Cantidad: "))
 
-if clave == 1:
-    
+# if clave == 1:
+#     preciocondescuento = (precio - (precio*0.10))
+#     print("El precio con descuento es: ", preciocondescuento)
+# elif clave == 2:
+#     preciocondescuento =(precio -(precio*0.20))
+#     print("El precio con descuento es:", preciocondescuento)
 
+# ////////////////////////////////////////////////////////////////////
+
+# presupuesto = float(input("Ingrese el presupuesto anual: "))
+# ppsi = float(input("Cuanto porcentaje (%) Psiquiatría: "))
+# pped = float(input("Cuanto porcentaje (%) Pediatría: "))
+# ptra = float(input("Cuanto porcentaje (%) Traumatología: "))
+# if pped + ppsi + ptra == 100:
+#     p1 = ((presupuesto*ppsi) /100)
+#     p2 = ((presupuesto*pped) /100)
+#     p3 = ((presupuesto*ptra) /100)
+#     print("Al área de Psiquiatría le corresponde:", p1 , "Pediatría:", p2 , "Traumatología:", p3)
+#     print("Para un total de :", p1+p2+p3)
+# else:
+#     print("Error, LA SUMA DE LOS PORCENTAJES DA MÁS DEL 100%")
+
+# ////////////////////////////////////////////////////////////////////
+
+ida = float(input("Para que día del mes actual necesita el pasaje de ida:"))
+vuelta = float(input("Para que día del mes actual necesita el pasaje de vuelta:"))
+kms = float(input("Cuantos km tiene el vuelo como trayectoría ?"))
+
+if vuelta - ida >= 7:
+    if kms >800:
+        nato = ((kms*2.5)*0.30)    
+        print("Se le aplicó un descuento del 30 a tu ticket y ahora vale:", nato)
+    else:
+        print("El valor de tu ticket es de:", (kms*2.5))
+else:
+        print("El valor de tu ticket es de:", (kms*2.5))
