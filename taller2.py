@@ -84,17 +84,19 @@
 
 # ////////////////////////////////////////////////////////////////////
 
-nombreart = str(input ("Nombre del Articulo: "))
-clave = int(input ("Clave: "))
-precio = float(input ("Precio: "))
-cantidad = int(input ("Cantidad: "))
-
-if clave == 1:
-    preciocondescuento = (precio - (precio*0.10))
-    print("El precio con descuento es: ", preciocondescuento)
-elif clave == 2:
-    preciocondescuento =(precio -(precio*0.20))
-    print("El precio con descuento es:", preciocondescuento)
+# nombreart = str(input ("Nombre del Articulo: "))
+# clave = int(input ("Clave: "))
+# precio = float(input ("Precio: "))
+# cantidad = int(input ("Cantidad: "))
+# if clave >2 or clave<1:
+#     print("Estas ingresando una clave no valida")
+# else:
+#     if clave == 1:
+#         preciocondescuento = (precio - (precio*0.10))
+#         print("El precio con descuento es: ", preciocondescuento)
+#     elif clave == 2:
+#         preciocondescuento =(precio -(precio*0.20))
+#         print("El precio con descuento es:", preciocondescuento)
 
 # ////////////////////////////////////////////////////////////////////
 
